@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="stylecal.css">
+  
+</head>
+<body>
+    <div class="main1">
+        <div id="main">
+            <input type="text" disabled id="output" placeholder="0">
+            <div class="buttons">
+                <button onclick="clear1()">C</button>
+                <button onclick="cal1('/')">/</button>
+                <button onclick="cal1('%')">%</button>
+                <button onclick="cal1('*')">X</button>
+
+                <button onclick="cal1('-')">-</button>
+                <button onclick="cal1('7')">7</button>
+                <button onclick="cal1('8')">8</button>
+                <button onclick="cal1('9')">9</button>
+
+                <button onclick="cal1('+')">+</button>
+                <button onclick="cal1('4')">4</button>
+                <button onclick="cal1('5')">5</button>
+                <button onclick="cal1('6')">6</button>
+
+                <button onclick="res1()">=</button>    
+                <button onclick="cal1('1')">1</button>
+                <button onclick="cal1('2')">2</button>
+                <button onclick="cal1('3')">3</button>
+
+                <button onclick="cal1('.')">.</button>    
+                <button onclick="cal1('0')">0</button>
+            </div>
+        </div>
+    </div>
+    <script src="scriptcal.js"></script>
+</body>
+</html>
