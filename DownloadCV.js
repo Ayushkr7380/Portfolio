@@ -6,7 +6,7 @@ res.addEventListener('click', function() {
     // let pdf = new jsPDF();
     // pdf.addImage(imageUrl, 'JPEG', 10, 10, 190, 277);
     // pdf.save('ayushResume.pdf');
-    const g = 'https://drive.google.com/file/d/19qxHD-Vq4qTvwufcsZTgFsVyWvqHj0IQ/view?usp=sharing';
+    const g = 'https://drive.google.com/file/d/1MoFPHw0acI6WniLPqUDvS9NbeOnEbkwQ/view?usp=sharing';
     window.open(g, '_blank');
 
 });
